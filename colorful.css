@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Merienda:wght@700&display=swap');
+
+:root {
+    --bkg: #FF1E1E;
+    --txt: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    color: var(--txt);
+}
+
+nav {
+    font-family: 'Merienda', cursive;
+    background-color: var(--bkg);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .nav-header {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+    padding: .5em 2em;
+    margin: 1.5em 1.5em;
+    background-color: var(--bkg);
+    width: fit-content;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.content {
+    font-family: 'Merienda', cursive;
+    padding: 1em 1em;
+    margin: 1.5em 1.5em;
+    background-color: var(--bkg);
+    width: 70%;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+hr {
+    margin: 5em 0;
+}
+
+.project {
+    margin-top: 3em;
+    width: 80%;
+}
+
+.project-header,
+.project-content {
+    font-family: 'Merienda', cursive;
+    padding: 1em 1em;
+    margin: -2px 0;
+    background-color: var(--bkg);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.project-content p {
+    margin-top: 0;
+}
